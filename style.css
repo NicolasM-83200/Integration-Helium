@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-color: #232323;
+  font-family: "Roboto", sans-serif;
+  color: #ebebeb;
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.header-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+h1 {
+  font-size: 6vw;
+}
+.header-left-container h3 {
+  color: #3f4bfc;
+  font-size: 2vw;
+}
+p {
+  font-size: 1.1vw;
+}
+.header-right {
+  width: 50%;
+}
+#modem {
+  width: 100%;
+}
+.infos {
+  display: flex;
+  background-color: rgb(10, 10, 10);
+  border-radius: 10px;
+}
+.infos-left {
+  width: 33%;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+button {
+  border: none;
+  background: #3f4bfc;
+  color: white;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+.infos-right {
+  width: 67%;
+}
+.investors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.img-container img {
+  height: 60px;
+}
